@@ -14,7 +14,7 @@ function getShippingCost(country) {
             price = 120
             break;
         default:
-            price: 0;
+            price = 0;
             return 'Sorry, there is no delivery to your country'; 
     }  
 
